@@ -1,0 +1,42 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+#admin{
+  font-size: 1px;
+}
+.headerLinks {
+  font-size: 1.4em;
+}
+.thing {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(233,230,230,.8);
+  border-radius: 10%;
+  animation: tilt;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.thing:hover {
+  background-color: rgb(200,233,200);
+}
+.thing:active {
+  border-radius: 100%;
+}
+@keyframes tilt {
+  from {width: 20px;}
+  to {width: 20px; transform: rotate(30deg);}
+}
+
+.container {
+  width: 90%;
+}
+a {
+  color: black;
+  cursor: pointer;
+}
+.smallHr{
+  width: 20%;
+}
+.nextContent {
+  background-color: #333;
+}
