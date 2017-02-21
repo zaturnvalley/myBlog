@@ -2,7 +2,7 @@
 ## A work in progress. Using:
 * NodeJS
 * ExpressJS
-* PostgresQL
+* PostgreSQL
 * HTML
 * CSS
 * JS
